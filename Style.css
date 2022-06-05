@@ -1,0 +1,360 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    box-sizing: border-box;
+}
+
+#main-container {
+    width: 1250px;
+    height: 750px;
+    position: absolute;
+    left: 15%;
+    top: 100px;
+
+}
+
+#team h2 {
+    text-align: center;
+    color: rgb(96, 15, 105);
+
+}
+
+#intro p {
+    text-align: left;
+    font-size: x-large;
+    color: darkslateblue;
+}
+
+/*Nav bar code*/
+
+.topnav {
+    overflow: hidden;
+    background-color: #3e9fc5;
+}
+
+.topnav a {
+    /* float: left; */
+    color: #f2f2f2;
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.topnav a:hover {
+    background-color: #ddd;
+    color: rgb(96, 15, 105);
+}
+
+.topnav a.active {
+    background-color: #944aa3;
+    color: white;
+}
+
+#dojo2 h3 {
+    color: darkmagenta;
+}
+
+/*form css*/
+input[type=text],
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+
+}
+
+input[type=submit] {
+    width: 100%;
+    background-color: #854ca7;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #33e0ec;
+}
+
+#formDiv {
+    border-radius: 5px;
+    background-color: rgb(238, 197, 238);
+    padding: 20px;
+    width: 60%;
+    height: 80%;
+
+
+}
+
+
+/* Main code*/
+.Introduction {
+    display: flex;
+    padding: 130px 180px 40px;
+}
+
+#profile-content {
+    padding-left: 100px;
+}
+
+#profilePic {
+    height: 20px;
+    width: 20px;
+}
+
+#title {
+    font-weight: normal;
+}
+
+#dojo {
+
+
+
+    background-color: white;
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: flex-end;
+
+
+}
+
+img.octocat {
+    height: 250px;
+}
+
+
+#dojo2 {
+
+    background-color: white;
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+#dojo3 {
+
+    background-color: white;
+    display: flex;
+    padding: 1rem 0;
+    align-items: center;
+    justify-content: space-evenly;
+
+
+}
+
+#messege h4 {
+    justify-content: center;
+    align-items: center;
+}
+
+
+h3 {
+
+    text-align: center;
+}
+
+h3:hover {
+    background-color: rgb(59, 247, 222);
+}
+
+div {
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+
+h1 {
+    color: rgb(179, 131, 226);
+    font-size: 10rem;
+    text-align: center;
+    opacity: 0.4;
+}
+
+form {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input {
+    border: none;
+    color: #444;
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    display: block;
+    width: 100%;
+}
+
+.input::placeholder {
+    color: #d5d5d5;
+}
+
+.input:focus {
+    outline-color: rgb(179, 131, 226);
+}
+
+.todos {
+    background-color: #fff;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.todos li {
+    border-top: 1px solid #e5e5e5;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.todos li.completed {
+    color: #b6b6b6;
+    text-decoration: line-through;
+}
+
+small {
+    color: #b5b5b5;
+    margin-top: 3rem;
+    text-align: center;
+}
+
+.logo-img {
+    width: 10%;
+}
+
+@media (max-width:767px) {
+    .logo-img {
+        width: 50%;
+    }
+
+    h1 {
+        font-size: 4rem;
+    }
+
+    form {
+        width: 90%;
+    }
+}
+
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.column {
+    float: left;
+    width: 33.3%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    margin: 8px;
+}
+
+.about-section {
+    padding: 60px;
+    margin-left: -500px;
+    margin-right: -500px;
+    text-align: center;
+    background-color: #944aa3;
+    color: white;
+}
+
+.container {
+    padding: 0 16px;
+}
+
+.container::after,
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.title {
+    color: grey;
+}
+
+.button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: rgb(96, 15, 105);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+}
+
+.button:hover {
+    background-color: #555;
+}
+
+/* @media screen and (max-width: 650px) {
+    .column {
+        width: 100%;
+        display: block;
+    }
+} */
+
+/*new code*/
+/* For mobile phones: */
+[class*="col-"] {
+    width: 100%;
+  }
+  
+  @media only screen and (min-width: 600px) {
+    /* For tablets: */
+    .col-s-1 {width: 8.33%;}
+    .col-s-2 {width: 16.66%;}
+    .col-s-3 {width: 25%;}
+    .col-s-4 {width: 33.33%;}
+    .col-s-5 {width: 41.66%;}
+    .col-s-6 {width: 50%;}
+    .col-s-7 {width: 58.33%;}
+    .col-s-8 {width: 66.66%;}
+    .col-s-9 {width: 75%;}
+    .col-s-10 {width: 83.33%;}
+    .col-s-11 {width: 91.66%;}
+    .col-s-12 {width: 100%;}
+  }
+  
+  @media only screen and (min-width: 768px) {
+    /* For desktop: */
+    .col-1 {width: 8.33%;}
+    .col-2 {width: 16.66%;}
+    .col-3 {width: 25%;}
+    .col-4 {width: 33.33%;}
+    .col-5 {width: 41.66%;}
+    .col-6 {width: 50%;}
+    .col-7 {width: 58.33%;}
+    .col-8 {width: 66.66%;}
+    .col-9 {width: 75%;}
+    .col-10 {width: 83.33%;}
+    .col-11 {width: 91.66%;}
+    .col-12 {width: 100%;}
+  }
